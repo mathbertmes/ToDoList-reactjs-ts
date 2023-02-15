@@ -1,6 +1,4 @@
 .newTaskWrapper{
-  width: 100%;
-
   display: grid;
   grid-template-columns: 1fr 90px;
   gap: 8px;
@@ -11,7 +9,7 @@
   border-radius: 8px;
   background: var(--gray-500);
   color: var(--gray-300);
-  padding: 8px 16px;
+  padding: 16px 16px;
 }
 
 .newTaskWrapper button{

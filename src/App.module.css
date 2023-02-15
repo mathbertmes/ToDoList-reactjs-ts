@@ -1,5 +1,5 @@
 .wrapper{
-  width: 46rem;
+  max-width: 46rem;
   display: flex;
   flex-direction: column;
   height: 200px;
