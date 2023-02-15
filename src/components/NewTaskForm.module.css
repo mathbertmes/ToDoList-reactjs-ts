@@ -1,0 +1,27 @@
+.newTaskWrapper{
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 90px;
+  gap: 8px;
+}
+
+.newTaskWrapper input{
+  height: 54px;
+  border-radius: 8px;
+  background: var(--gray-500);
+  color: var(--gray-300);
+  padding: 8px 16px;
+}
+
+.newTaskWrapper button{
+  background: var(--blue-500);
+  color: var(--gray-100);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.newTaskWrapper button span::after{
+  content: "\002b";
+  padding: 0 0 0 0.25rem;
+}
