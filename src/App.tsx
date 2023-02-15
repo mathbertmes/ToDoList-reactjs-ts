@@ -3,15 +3,14 @@ import styles from "./App.module.css"
 
 import "./global.css"
 import { NewTaskForm } from "./components/NewTaskForm"
+import { TasksList } from "./components/TasksLists"
 
 export function App() {
 
   return (
     <div>
       <Header />
-      <div className={styles.wrapper}>
-        <NewTaskForm />
-      </div>
+      <TasksList />
     </div>
   )
 }

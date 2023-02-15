@@ -8,7 +8,10 @@
   --gray-600: #1A1A1A;
   --gray-700: #0D0D0D;
 
+  --blue-200: #4EA8DE;
   --blue-500: #1E6F9F;
+
+  --purple-200: #8284FA;
 }
 
 *{
@@ -20,4 +23,10 @@
 
 body{
   background: var(--gray-600);
+}
+
+body, input, textarea, button{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }

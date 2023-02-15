@@ -1,0 +1,50 @@
+.wrapper{
+  max-width: 46rem;
+  display: flex;
+  flex-direction: column;
+  margin: -1.69rem auto 0;
+  padding: 0 1rem;
+}
+
+.headerAndListWrapper{
+  margin-top: 4rem;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.taskCounterAndTextWrapper{
+  display: flex;
+  align-items: center;
+
+}
+
+.tasksCreatedText {
+  font-weight: bold;
+  color: var(--blue-200);
+  font-size: 0.875rem;
+  margin-right: 1rem;
+}
+
+.fineshedTasksText {
+  font-weight: bold;
+  color: var(--purple-200);
+  font-size: 0.875rem;
+  margin-right: 1rem;
+}
+
+.taskCounter{
+  display: flex;
+  justify-content: center;
+  padding: 2px 8px;
+
+  font-size: 0.75rem;
+  font-weight: bold;
+
+  border-radius: 999px;
+  background: var(--gray-400);
+  color: var(--gray-200);
+}
