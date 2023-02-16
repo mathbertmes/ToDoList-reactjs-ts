@@ -48,3 +48,20 @@
   background: var(--gray-400);
   color: var(--gray-200);
 }
+
+.emptyTask{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+
+  padding: 4rem 0;
+  color: var(--gray-300);
+}
+
+.emptyTask img{
+  margin-bottom: 1rem;
+}
