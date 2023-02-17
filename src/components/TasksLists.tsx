@@ -2,6 +2,7 @@ import { NewTaskForm } from "./NewTaskForm"
 import styles from "./TasksList.module.css"
 
 import imgEmptyTask from "../assets/empty-task.svg"
+import { Task } from "./Task"
 
 export function TasksList(){
   return(
@@ -22,11 +23,12 @@ export function TasksList(){
           </div>
 
         </div>
-        <div className={styles.emptyTask}>
+        {/* <div className={styles.emptyTask}>
           <img src={imgEmptyTask} alt="empty task" />
           <strong>Você ainda não tem tarefas cadastradas</strong>
           <p>Crie tarefas e organize seus itens a fazer</p>
-        </div>
+        </div> */}
+        <Task />
 
       </div>
     </div>

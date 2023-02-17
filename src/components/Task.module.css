@@ -1,0 +1,62 @@
+.taskWrapper{
+  width: 100%;
+  background: var(--gray-500);
+  border-radius: 8px;
+  padding: 1rem 1rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  font-size: 0.875rem;
+  color: var(--gray-100);
+}
+
+
+
+.markCompleteButton{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid var(--blue-200);
+  border-radius: 50%;
+  margin-right: 0.75rem;
+  padding: 0.45rem;
+  width: 1.15rem;
+  height: 1.15rem;
+  transition: border 0.2s, color 0.4s;
+}
+
+.markCompleteButton:not(:checked):hover{
+  background: var(--blue-500-opacity);
+  border: 2px solid var(--blue-500);
+}
+
+.markAndText{
+  display: flex;
+  align-items: flex-start;
+}
+
+.trashButton{
+  margin-left: 0.75rem;
+  color: var(--gray-300);
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.trashButton :hover{
+  background: var(--gray-400);
+  color: var(--red-500);
+  border: none;
+  border-radius: 4px;
+}
+
+.trashIcon{
+  padding: 2px;
+}
