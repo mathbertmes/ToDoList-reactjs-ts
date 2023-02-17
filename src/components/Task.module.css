@@ -13,7 +13,10 @@
   color: var(--gray-100);
 }
 
-
+.markAndText{
+  display: flex;
+  align-items: flex-start;
+}
 
 .markCompleteButton{
   -webkit-appearance: none;
@@ -27,7 +30,7 @@
   padding: 0.45rem;
   width: 1.15rem;
   height: 1.15rem;
-  transition: border 0.2s, color 0.4s;
+  transition: border 0.2s, background 0.2s;
 }
 
 .markCompleteButton:not(:checked):hover{
@@ -35,9 +38,14 @@
   border: 2px solid var(--blue-500);
 }
 
-.markAndText{
-  display: flex;
-  align-items: flex-start;
+.markCompleteButton:checked{
+  border: 2px solid var(--purple-500);
+  background: var(--purple-500) url("../assets/done.svg") center no-repeat;  
+}
+
+.markCompleteButton:checked:hover{
+  border: 2px solid var(--purple-200);
+  background: var(--purple-200) url("../assets/done.svg") center no-repeat; 
 }
 
 .trashButton{
