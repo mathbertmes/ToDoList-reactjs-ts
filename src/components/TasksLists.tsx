@@ -52,6 +52,10 @@ export function TasksList(){
   }
 
   function handleDeleteTask(id: string){
+    const taskToDelete = tasks.find((task) => task.id === id)
+    if(taskToDelete?.isComplete === true){
+      setCounterTasksCompleted(counterTasksCompleted - 1)
+    }
     const newTasksList = tasks.filter(task => task.id !== id)
     setTasks(newTasksList)
   }
