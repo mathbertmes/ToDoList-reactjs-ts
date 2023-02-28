@@ -11,6 +11,13 @@
 
   font-size: 0.875rem;
   color: var(--gray-100);
+
+  margin-bottom: 0.875rem;
+}
+
+.taskCompletedTextDesign{
+  color: var(--gray-300);
+  text-decoration: line-through;
 }
 
 .markAndText{

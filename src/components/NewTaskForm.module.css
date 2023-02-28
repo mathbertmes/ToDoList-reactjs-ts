@@ -7,9 +7,18 @@
 .newTaskWrapper input{
   height: 3.375rem;
   border-radius: 8px;
+  border: none;
   background: var(--gray-500);
   color: var(--gray-300);
   padding: 1rem 1rem;
+}
+
+.newTaskWrapper input:focus{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  border: 1px solid var(--purple-500);
+  color: var(--gray-100);
+
 }
 
 .newTaskWrapper button{
@@ -17,6 +26,10 @@
   color: var(--gray-100);
   border-radius: 8px;
   cursor: pointer;
+}
+
+.newTaskWrapper button:hover{
+  background: var(--blue-200);
 }
 
 .newTaskWrapper button span::after{
